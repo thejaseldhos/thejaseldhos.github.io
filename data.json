@@ -1,0 +1,110 @@
+{
+  "about": "I’m a Data Scientist with 4+ years of experience building production forecasting and analytics solutions across energy and supply chain. I specialize in time-series forecasting, XGBoost-based machine learning, feature engineering, model selection, and hyperparameter optimization, with hands-on experience in Python, PySpark, SQL, and Azure. My work includes electricity load forecasting for ERCOT trading, hedging, and portfolio planning, along with demand forecasting and inventory analytics for more than 2,000 SKUs.",
+  "currently_looking_for": "",
+  "experience": [
+    {
+      "role": "Data Scientist",
+      "company": "MOATIVE",
+      "description": "Developing production electricity load forecasting and analytics solutions using Python, PySpark, SQL, Azure Machine Learning, Azure Data Factory, and Power BI to support ERCOT energy-market trading, hedging, power procurement, and portfolio planning.",
+      "daterange": "February 2025 – Present",
+      "work": [
+        {
+          "workname": "Electricity Load Forecasting System",
+          "description": "Developed and supported an end-to-end load forecasting system covering more than 78,000 customer meters and approximately 54 load-profile and weather-zone models across a roughly 220–235 MWh portfolio. Built 50 XGBoost models and four moving-average models, using RFECV for feature selection and Optuna for hyperparameter optimization. Achieved approximately 2–3.5% MAPE for residential profiles and 3–5% for business profiles."
+        },
+        {
+          "workname": "Short-Term ERCOT Forecasting and Backcasting",
+          "description": "Delivered daily 15-day short-term forecasts and backcasts before 6 AM CST for traders supporting ERCOT energy-market hedging and power-procurement decisions."
+        },
+        {
+          "workname": "Long-Term Electricity Load Forecasting",
+          "description": "Extended the forecasting framework to horizons of up to two years using hourly historical load and weather data, supporting sales, portfolio growth, and business-expansion planning."
+        },
+        {
+          "workname": "Weather Data Ingestion and Forecast Monitoring",
+          "description": "Automated weather-data ingestion from REST APIs through Azure Data Factory and integrated weather inputs into model-training and production-inference workflows. Built scalable forecasting workflows and production data outputs using Python, PySpark, SQL, and Azure ML, with Power BI reporting for forecast and model-performance monitoring."
+        }
+      ]
+    },
+    {
+      "role": "Associate Data Scientist",
+      "company": "GEAKMINDS TECHNOLOGIES",
+      "description": "Built demand-forecasting, inventory analytics, and management-reporting solutions using SAP HANA, Azure Synapse Analytics, Azure Databricks, Prophet, moving-average models, and Power BI.",
+      "daterange": "June 2022 – January 2025",
+      "work": [
+        {
+          "workname": "SKU Demand Forecasting Framework",
+          "description": "Built demand-forecasting and inventory analytics solutions for more than 2,000 SKUs using SAP HANA data processed through Azure Synapse and Azure Databricks. Designed a framework using Prophet and moving-average models, with SKU segmentation based on data availability and daily, weekly, and monthly demand statistics. Achieved approximately 15–20% aggregate MAPE."
+        },
+        {
+          "workname": "Demand and Inventory Planning Outlook",
+          "description": "Produced 15-month demand and inventory outlooks covering stock availability, open orders, backorders, and part-level demand to support recurring management reporting and inventory planning."
+        },
+        {
+          "workname": "Automated Reporting and Power BI Dashboards",
+          "description": "Automated data preparation and monthly reporting workflows, including three months of historical views for month-over-month comparison. Developed Power BI dashboards and translated forecasting outputs, inventory KPIs, and data-quality findings into actionable insights for business stakeholders."
+        }
+      ]
+    }
+  ],
+  "selected_work": [
+    {
+      "name": "Electricity Load Forecasting System",
+      "oneliner": "Production electricity load forecasting for ERCOT hedging and power procurement.",
+      "year": null,
+      "description": "An end-to-end forecasting system covering more than 78,000 customer meters and approximately 54 load-profile and weather-zone models. Uses 50 XGBoost models and four moving-average models, with RFECV feature selection and Optuna optimization. Achieved approximately 2–3.5% residential MAPE and 3–5% business MAPE, delivering daily 15-day forecasts and backcasts.",
+      "link": ""
+    },
+    {
+      "name": "Long-Term Electricity Load Forecasting",
+      "oneliner": "Electricity demand outlooks of up to two years for portfolio and business planning.",
+      "year": null,
+      "description": "Extended an electricity forecasting framework using hourly historical load and weather data to support sales, portfolio growth, and business-expansion planning over horizons of up to two years.",
+      "link": ""
+    },
+    {
+      "name": "Weather Data Ingestion and Forecast Monitoring",
+      "oneliner": "Automated weather ingestion and performance reporting for production forecasting.",
+      "year": null,
+      "description": "Integrated weather REST APIs through Azure Data Factory into model-training and production-inference workflows. Used Python, PySpark, SQL, Azure ML, and Power BI to deliver scalable forecasting pipelines and model-performance reporting.",
+      "link": ""
+    },
+    {
+      "name": "SKU Demand Forecasting and Inventory Analytics",
+      "oneliner": "Demand forecasting and inventory planning for more than 2,000 SKUs.",
+      "year": null,
+      "description": "Built a forecasting framework using Prophet and moving-average models with SAP HANA data processed through Azure Synapse and Azure Databricks. Achieved approximately 15–20% aggregate MAPE and produced 15-month demand and inventory outlooks covering stock availability, open orders, backorders, and part-level demand.",
+      "link": ""
+    },
+    {
+      "name": "Automated Inventory Reporting and Power BI Dashboards",
+      "oneliner": "Automated monthly reporting and actionable inventory insights.",
+      "year": null,
+      "description": "Automated data preparation and monthly management reporting, with three months of historical views for month-over-month analysis. Built Power BI dashboards presenting forecasting outputs, inventory KPIs, and data-quality findings.",
+      "link": ""
+    }
+  ],
+  "education": [
+    {
+      "collegename": "Baselius College, Kottayam, Kerala",
+      "degree": "Master of Science, Data Analytics",
+      "cgpa": "4.71/5.0",
+      "daterange": "Completed September 2022"
+    },
+    {
+      "collegename": "SB College, Changanacherry, Kerala",
+      "degree": "Bachelor of Science, Mathematics",
+      "cgpa": "8.40/10",
+      "daterange": "Completed March 2020"
+    }
+  ],
+  "name": "Thejas Eldhos Kurian",
+  "role": "Data Scientist",
+  "location": "",
+  "dp": "https://media.licdn.com/dms/image/v2/D5603AQEWjjsdoZZqLQ/profile-displayphoto-crop_800_800/B56Z1cps6GGwAI-/0/1775375936400?e=1793836800&v=beta&t=Tv4OMkPlHNY5td7qasepbhl5jmbvWRVtrVXXUj1jWKQ",
+  "links": {
+    "GitHub": "https://github.com/TEK-29",
+    "LinkedIn": "https://www.linkedin.com/in/tek-ds/",
+    "Resume": ""
+  }
+}
